@@ -1,0 +1,30 @@
+.log_in_container {
+  min-height: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .log_in_form {
+    border: 2px solid rgb(206, 17, 38);
+    border-radius: 15px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+  }
+  label {
+    font-size: 1.1em;
+  }
+  input[type="email"],
+  input[type="password"] {
+    font-size: 1em;
+  }
+  input[type="submit"] {
+    width: 45%;
+    align-self: center;
+    border-color: rgb(206, 17, 38);
+    background-color: white;
+    color: rgb(206, 17, 38);
+    font-size: 1.2empx;
+  }
+}
